@@ -1,0 +1,29 @@
+.filter-menu {
+  display: flex;
+  align-items: center;
+}
+
+.filters {
+  display: none;
+  flex-direction: column;
+}
+
+#toggle-filters {
+  cursor: pointer;
+  padding: 5px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+}
+
+#toggle-filters:hover {
+  background-color: #2980b9;
+}
+
+#toggle-filters.active {
+  background-color: #e74c3c;
+}
+
+.additional-filters {
+  display: none;
+}
