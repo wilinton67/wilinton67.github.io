@@ -1,0 +1,8 @@
+.header-tabla{
+    color: white;
+    background-color: #28a745;
+}
+#tabla-calificaciones tr {
+    cursor: pointer;
+    /* Otras propiedades CSS que desees aplicar a los elementos tr */
+}
